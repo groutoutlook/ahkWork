@@ -7,6 +7,7 @@
 ; Numpad0::MenuKey()
 ; NumpadIns::MenuKey()
 RAlt::MenuKey()
+RAlt & j::AltTab
 
 
 ; NumpadDot::WinKey()
