@@ -4,8 +4,10 @@
 
 
 
-Numpad0::MenuKey()
-NumpadIns::MenuKey()
+; Numpad0::MenuKey()
+; NumpadIns::MenuKey()
+RAlt::MenuKey()
+
 
 ; NumpadDot::WinKey()
 ; NumpadDel::WinKey()
