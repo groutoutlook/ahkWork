@@ -1,5 +1,6 @@
 #SingleInstance Force
 
+A_MaxHotkeysPerInterval := 2000
 global Mouse_Blocked := false  ; Initialize globally
 
 #^!x::
@@ -17,9 +18,9 @@ global Mouse_Blocked := false  ; Initialize globally
 
 #HotIf Mouse_Blocked
 LButton::
-RButton::
-WheelUp::
-WheelDown::
+; RButton::
+; WheelUp::
+; WheelDown::
 {
     return
 }
